@@ -1,0 +1,23 @@
+
+section.about {
+    overflow: auto;
+    padding-bottom:5%;
+    
+}
+.about img {
+    border-radius: 50%;
+    width: 32%;
+    float: left;
+}
+
+.about section.blurb {
+  padding-left: 2%;
+  float:left;
+  width:68%;
+}
+
+.about p {
+    font-size: 4.25rem;
+    margin:0px;
+    margin-bottom: 3%;
+}

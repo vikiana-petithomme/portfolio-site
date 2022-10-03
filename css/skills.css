@@ -1,0 +1,9 @@
+section.links {
+    display: flex;
+    justify-content: center;
+}
+
+section.links .button {
+    margin-left:0px;
+    margin-right:2%;   
+}

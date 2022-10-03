@@ -1,0 +1,19 @@
+
+section.home h1{
+    width: 90%;
+    font-size: 18rem;
+    padding-left:10%;
+    background-image: url('../assets/megaphone.gif');
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top: 500px;
+    padding-bottom:75px;
+    padding-right:13%;
+    margin:0px;
+    font-family: 'Barlow', sans-serif;;
+    font-weight:900;
+    line-height: 1em;
+    color: #279625;
+    text-shadow: 2px 3px 3px #38b6ff;
+}

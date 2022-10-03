@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Barlow', sans-serif;
+}
+header{
+    height: 100px;
+    width:100%;
+    padding-left:5%;
+    padding-right:5%;
+    background: white;  
+    border-bottom: 2px solid linear-gradient(90deg, rgba(56,182,255,.75) 35%, rgba(39,150,37,.75) 100%);
+}
+
+section.home {
+    width:100%;
+    background: linear-gradient(90deg, rgba(56,182,255,.75) 35%, rgba(39,150,37,.75) 100%);
+    display: flex;
+    align-items: center;
+    padding-left:5%;
+    padding-right:5%;
+    margin-top: 100px;
+    padding-bottom:5%;
+}
+
+section.about {
+    width:100%;
+    padding-left: 5%;
+    padding-right:5%;
+    padding-bottom:3%;
+}
+
+section.skills {
+    height: 700px;
+    width:100%;
+    background: #00491f;
+}
+
+section.portfolio {
+
+    width:100%;
+    padding-bottom: 3%;
+}
+
+section.connect {
+    width:100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    background:#38b6ff;
+}
+
+footer { 
+    width:100%;
+    background: linear-gradient(90deg, rgba(56,182,255,1) 35%, rgba(39,150,37,1) 100%);
+    padding-left: 5%;
+    padding-right:5%;
+    padding-top:3%;
+    padding-bottom:3%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5rem;
+    color: black;
+    font-weight: bold;
+    font-family:'sceageusregular' ;
+
+}
+
+h2 {
+    font-size: 8rem;
+    color: #279625;
+    width: 100%;
+    text-align: center;
+    font-family:'sceageusregular' ;
+
+}
+
+.connect h2 {
+    margin-top:0px;
+    text-shadow: 1px 1px 1px white;
+}
+
+
+section.embeds{
+    width: 100%;
+    padding-left:5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.embeds section {
+    float: left;
+    width: 48%;
+    height: 350px;
+    background: rgb(56,182,255);
+    margin-bottom: 4%;
+    margin-right: 2%;
+    clear: both;
+    border: 5px solid rgb(56,182,255);
+}
+
+.hide{
+    display:none;
+}
+
+.button {
+        color: white;
+        font-size: 2rem;
+        background: #279625;
+        border-radius: 10%;
+        margin-bottom: 5%;
+        padding-bottom:1%;
+        padding-top:1%;
+        padding-left:3%;
+        padding-right:3%;
+        width:22%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+}

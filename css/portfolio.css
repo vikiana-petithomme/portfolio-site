@@ -1,0 +1,30 @@
+
+section.embeds section#item1 {
+    background-image: url('../assets/horoscope.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.embeds section#item2 {
+    background-image: url('../assets/jwli.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.embeds section#item3 {
+    background-image: url('../assets/levelground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.embeds section#item4 {
+    background-image: url('../assets/todolist.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.embeds section#item5 {
+    background-image: url('../assets/techcrunch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,448 @@
+@media screen and (max-width:2530px){
+    section.home h1{
+        font-size: 16rem;
+    }
+    header h1 {
+        font-size: 9rem;
+    }
+    .about p {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:2310px){
+   
+    header h1 {
+        font-size: 8.5rem;
+    }
+    .about p {
+        font-size: 3.75rem;
+    }
+}
+
+@media screen and (max-width:2200px){
+    section.home h1{
+        font-size: 14rem;
+    }
+    header h1 {
+        font-size: 8rem;
+    }
+    .about p {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width:2100px){
+    section.home h1{
+        font-size: 13.5rem;
+        
+    }
+    header h1 {
+        font-size: 7.5rem;
+    }
+    .about p {
+        font-size: 3.25rem;
+    }
+}
+
+@media screen and (max-width:2000px){
+    section.home h1{
+        width:93%;
+        font-size:13rem;    
+        background-size: 950px;
+    }
+    header h1 {
+        font-size: 7rem;
+    }
+    .about p {
+        font-size: 3rem;
+    }
+}
+
+
+@media screen and (max-width:1900px){
+    section.home h1{
+        width:95%;
+        padding-right:10%; 
+        padding-top: 475px;
+    }
+    header h1 {
+        font-size: 6.5rem;
+    }
+    .about p {
+        font-size: 2.8rem;
+    }
+
+}
+
+@media screen and (max-width:1800px){
+    section.home h1{
+        width:97%;
+        padding-right:12%;
+        background-size: 900px;
+        padding-top: 450px; 
+    }
+    header h1 {
+        font-size: 6rem;
+    }
+    
+}
+@media screen and (max-width:1700px){
+    section.home h1{
+        width:98%;
+        padding-right:11%; 
+        padding-left: 13%; 
+        font-size:12.5rem;
+        background-size: 850px;  
+        padding-top: 425px;   
+
+    }
+    
+    header h1 {
+        width:55%;
+        font-size: 5rem;
+    }
+
+    header nav {
+        width: 45%;
+    }
+    .about p {
+        font-size: 2.25rem;
+    }
+}
+
+@media screen and (max-width:1600px){
+    section.home h1{
+        width:100%;
+        padding-right:10%;
+        background-size: 800px;  
+        padding-top: 400px;
+    }
+    
+    header h1 {
+        width:50%;
+        font-size: 4rem;
+    }
+   
+    header nav {
+        width: 50%;
+    }
+    .about p {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:1500px){
+    section.home h1{
+        padding-left: 7%;
+        font-size:12rem;    
+        background-size: 900px;
+        padding-right:9%; 
+        background-size: 750px; 
+        padding-top: 375px;
+    }
+    
+    header h1 span {
+        display: none;
+    }
+
+    header h1 {
+        width:45%;
+        font-size: 7rem;
+
+    }
+   
+    header nav {
+        width: 55%;
+    }
+
+    .about p {
+        font-size: 1.75rem;
+    }
+
+}
+
+@media screen and (max-width:1400px){
+    section.home h1{
+        padding-right:8%; 
+        font-size:11.5rem;
+        background-size: 700px;
+        padding-top: 350px;     
+
+    }
+
+    header h1 {
+        width:40%;
+    }
+   
+    header nav {
+        width: 60%;
+    }
+    h2 {
+        font-size: 7.5rem;
+    }
+}
+
+@media screen and (max-width:1300px){
+    header h1 {
+        width:55%;
+    }
+   
+    section.home h1{
+        padding-left: 6%;
+        font-size:11rem;    
+        padding-right:7%; 
+        background-size: 650px;
+        padding-top: 325px; 
+    }
+
+    header h1 {
+        width:35%;
+    }
+    header nav {
+        width: 65%;
+    }
+    h2 {
+        font-size: 7rem;
+    }
+    
+   
+}
+
+@media screen and (max-width:1200px){
+    header h1 {
+        width:30%;
+    }
+    header nav {
+        width: 70%;
+    }
+    
+    section.home h1{
+        font-size:10rem;
+        background-size: 600px; 
+        padding-top:300px;    
+    }
+    h2 {
+        font-size: 6.5rem;
+    }
+
+}
+
+@media screen and (max-width:1100px){
+   
+    header h1 {
+        width:25%;
+    }
+    header nav {
+        width: 75%;
+    }
+   
+    section.home h1{
+        font-size:9rem;
+        background-size: 550px;
+        padding-top: 275px;     
+    }
+    h2 {
+        font-size: 6rem;
+    }
+
+    .about p {
+        font-size: 2rem;
+        margin-bottom: 5%;
+
+    }
+    .about img {
+        border-radius: 50%;
+        width: 31.5%;
+    }
+    
+    .about section.blurb {
+        width: 100%;
+        margin-top: 5%;
+    }
+    
+    .aboutContent {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1000px){
+    header nav li { 
+        display: none;
+    }
+    header nav ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .hamburger {
+        display: block;
+    }
+    header h1 {
+        width:30%;
+        font-size: 6.5rem;
+    }
+    header nav {
+        width: 70%;
+    }
+
+    section.home h1{
+        font-size:8rem;
+        background-size: 500px; 
+        padding-top: 250px;
+    }
+    h2 {
+        font-size: 5.5rem;
+    }
+
+    .about p {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:900px){
+    header h1 {
+        font-size: 6rem;
+    }
+    section.home h1{
+        font-size:7rem;
+        background-size: 450px; 
+        padding-top: 225px;
+    }
+    h2 {
+        font-size: 5rem;
+    }
+
+    section.embeds{
+        width: 100%;
+        padding-left:5%;
+        padding-right: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .embeds section {
+        width: 100%;
+        margin-right: 0%;
+
+    }
+    section.portfolio {
+        margin-bottom:2%;
+    }
+
+    section.embeds a.hide {
+        display:block;
+    }
+
+    .mobileHide{
+        display:none;
+    }
+
+    .about p {
+        font-size: 1.6rem;
+    }
+    
+}
+
+@media screen and (max-width:800px){
+    header h1 {
+        font-size: 5.5rem;
+    }
+    section.home h1{
+        font-size:6rem;
+        background-size: 400px; 
+        padding-top: 200px;
+        padding-right:15%;
+
+    }
+    h2 {
+        font-size: 4.5rem;
+    }
+
+    .about p {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:700px){
+    header h1 {
+        font-size: 5rem;
+    }
+    section.home h1{
+        font-size:5rem;
+        background-size: 350px;
+        padding-top: 175px;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+
+    .about p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    header h1 {
+        font-size: 4.5rem;
+    }
+    section.home h1{
+        font-size:4rem;
+        background-size: 300px;
+        padding-top: 150px;
+        padding-right:17%;
+   
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    section.embeds a.hide {
+        font-size: 1.5rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:500px){
+    header h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:400px){
+    header h1 {
+        font-size: 3.5rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    #fname, #lname {
+        width: 100%;    
+    }
+
+    form > input, textarea {
+        margin-bottom: 5%;  
+        
+    }
+}
+
+@media screen and (max-width:300px){
+    header h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+    section.embeds a.hide {
+        font-size: 1rem;
+    }
+}
