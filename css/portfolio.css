@@ -3,28 +3,75 @@ section.embeds section#item1 {
     background-image: url('../assets/horoscope.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position:center;
 }
 
 section.embeds section#item2 {
     background-image: url('../assets/jwli.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position:center;
 }
 
 section.embeds section#item3 {
     background-image: url('../assets/levelground.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position:center;
 }
 
 section.embeds section#item4 {
     background-image: url('../assets/todolist.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position:center;
 }
 
 section.embeds section#item5 {
     background-image: url('../assets/techcrunch.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position:center;
+}
+
+.embeds > section:hover {
+    background-color: rgb(16, 50, 16);
+    background-blend-mode: overlay;
+    opacity:70%;
+    filter:  brightness(0.5);
+    padding-top:6.66%;
+    padding-bottom:6.66%;
+}
+
+.embeds > section {
+    display:flex;
+    align-items: center;
+}
+
+section.portfolioItemLabel {
+    width:75%;
+    padding-top: 5.66%;
+    padding-bottom:5.66%;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+}
+
+.portfolioItemLabel h3 {
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 5px;
+    margin-bottom:2%;
+}
+
+.portfolioItemLabel a.button {
+    background: white;
+    color: black;
+    width:40%;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+.embeds > section > .portfolioItemLabel.hide{
+    display:none;
 }

@@ -18,6 +18,9 @@
     .about p {
         font-size: 3.75rem;
     }
+    nav li a {
+        font-size: 3.75rem;  
+    }
 }
 
 @media screen and (max-width:2200px){
@@ -29,6 +32,9 @@
     }
     .about p {
         font-size: 3.5rem;
+    }
+    nav li a {
+        font-size: 3.5rem;  
     }
 }
 
@@ -43,6 +49,9 @@
     .about p {
         font-size: 3.25rem;
     }
+    nav li a {
+        font-size: 3.25rem;  
+    }
 }
 
 @media screen and (max-width:2000px){
@@ -56,6 +65,10 @@
     }
     .about p {
         font-size: 3rem;
+    }
+
+    nav li a {
+        font-size: 3rem;  
     }
 }
 
@@ -99,7 +112,6 @@
     }
     
     header h1 {
-        width:55%;
         font-size: 5rem;
     }
 
@@ -120,7 +132,6 @@
     }
     
     header h1 {
-        width:50%;
         font-size: 4rem;
     }
    
@@ -147,7 +158,6 @@
     }
 
     header h1 {
-        width:45%;
         font-size: 7rem;
 
     }
@@ -171,10 +181,6 @@
 
     }
 
-    header h1 {
-        width:40%;
-    }
-   
     header nav {
         width: 60%;
     }
@@ -196,9 +202,6 @@
         padding-top: 325px; 
     }
 
-    header h1 {
-        width:35%;
-    }
     header nav {
         width: 65%;
     }
@@ -210,9 +213,7 @@
 }
 
 @media screen and (max-width:1200px){
-    header h1 {
-        width:30%;
-    }
+
     header nav {
         width: 70%;
     }
@@ -230,9 +231,6 @@
 
 @media screen and (max-width:1100px){
    
-    header h1 {
-        width:25%;
-    }
     header nav {
         width: 75%;
     }
@@ -267,7 +265,7 @@
     }
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1050px){
     header nav li { 
         display: none;
     }
@@ -279,7 +277,6 @@
         display: block;
     }
     header h1 {
-        width:30%;
         font-size: 6.5rem;
     }
     header nav {
@@ -324,18 +321,18 @@
     .embeds section {
         width: 100%;
         margin-right: 0%;
-
+        padding-top:56%;
     }
     section.portfolio {
         margin-bottom:2%;
     }
 
-    section.embeds a.hide {
+    section.embeds a.seeMore {
         display:block;
     }
 
     .mobileHide{
-        display:none;
+        display:none !important;
     }
 
     .about p {
@@ -442,7 +439,8 @@
     h2 {
         font-size: 2rem;
     }
-    section.embeds a.hide {
+    section.embeds a.seeMore {
         font-size: 1rem;
     }
 }
+

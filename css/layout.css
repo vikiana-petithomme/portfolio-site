@@ -5,6 +5,7 @@
 html {
     font-size: 62.5%;
     font-family: 'Barlow', sans-serif;
+    scroll-behavior: smooth;
 }
 header{
     height: 100px;
@@ -97,15 +98,18 @@ section.embeds{
     flex-wrap: wrap;
 }
 
-.embeds section {
+.embeds > section {
     float: left;
     width: 48%;
-    height: 350px;
-    background: rgb(56,182,255);
     margin-bottom: 4%;
     margin-right: 2%;
     clear: both;
     border: 5px solid rgb(56,182,255);
+    padding-top:14.66%;
+    padding-bottom:14.66%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
 .hide{

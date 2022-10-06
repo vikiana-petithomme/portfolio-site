@@ -4,17 +4,22 @@ header {
     justify-content: center;
     position: fixed;
     top:0;
+    z-index:5;
+}
+
+header > a {
+    text-decoration: none;
+    float: left;
 }
 
 header h1 {
     color: #279625;
-    width: 60%;
+    width: 100%;
     font-size: 10rem;
     font-family:'sceageusregular' ;
     text-shadow: 3px 4px 2px #38b6ff;
-    letter-spacing: 10px;;
+    letter-spacing: 10px;
     margin:0px;
-    
 }
 
 header nav {
@@ -27,11 +32,10 @@ header ul {
 
 header nav li {
     list-style-type: none;
-    float: left;
-    width:33.33%;
+    float: right;
     display: flex;
     justify-content: flex-end;
-    padding-left: 3%;
+    padding-left: 40px;
     font-family:'sceageusregular' ;
 
 }   
@@ -39,7 +43,7 @@ header nav li {
 nav li a {
     text-decoration: none;
     color: #00491f;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
 
 }
