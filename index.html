@@ -13,21 +13,21 @@
         <link rel="stylesheet" href="css/about.css">
         <link rel="stylesheet" href="css/skills.css">
         <link rel="stylesheet" href="css/header-footer.css">
-        <link rel="stylesheet" href="css/contact.css">
         <link rel="stylesheet" href="css/home.css">
         <link rel="stylesheet" href="css/portfolio.css">
         <link rel="stylesheet" href="css/webfontkit-20220927-114459/stylesheet.css">
         <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        
     </head>
     <body>
         <header>
             <a href="#home"><h1>VIKIANA <span>PETIT-HOMME</span></h1></a>
             <nav>
                 <ul>
-                    <li><a href="#about">ABOUT</a></li>
                     <li><a href="#portfolio">PORTFOLIO</a></li>
                     <li><a href="#connect">CONNECT</a></li>
+                    <li><a href="#about">ABOUT</a></li>
                     <li class="hamburger hide"><a><span class="material-symbols-outlined">menu</span></a></li>
                 </ul>
             </nav>
@@ -40,17 +40,95 @@
             <section class="aboutContent">
                 <img src="assets/portrait-copy.JPG">
             <section class="blurb">
-                <p>At the core of my values is curiosity, community, and radical imagination. For the past 5 years I’ve engaged in and led local political, youth empowerment , and community oriented organizations. Through those experiences I’ve developed a strong sense of responsibility to those around me by assisting in creating and connecting people to the resources and tools they need to succeed. From starting mutual aid organizations and drives, to curating community events aimed at feeding and connecting neighbors to one another, I’m committed to having a sense of reimagination about what a community can achieve and be.</p>
-                <p>I’ve partnered with like minded individuals to host community kickbacks where I highlight and compensate local artists through performances, partnered with local brown and black small businesses, led a volunteer effort to make and distribute hot food, and organized clothes drives to create free thrift stores for those in need. I’ve also worked with others to create and maintain an anonymous mutual fund, where we collect and raise money to distribute to those in need, particularly black, brown, queer, and low-income folks.</p>
-                <p>Through my current work as a Software Developer I am in pursuit of creating community based web tools that connect and empower.</p>
+                <p>At the core of my values is curiosity, community, and radical imagination. For the past six years I’ve engaged in and led local political, youth empowerment, and community oriented organizations. Through those experiences I’ve developed a strong sense of responsibility to those around me by assisting in creating and connecting people to the resources and tools they need to succeed. From starting mutual aid organizations and drives, to curating community events aimed at feeding and connecting neighbors to one another, I’m committed to having a sense of reimagination about what a community can achieve and be. Through my current work as a Software Developer I am in pursuit of creating community based web tools that connect and empower. It was easy to transfer my community organizing skills into ensuring meaningful collaboration with other developers, managing and developing meaningful tools and sites, and being creative and open minded about what is possible to create. 
+                </p>
             </section>
         </section>
         </section>
-         <section class="skills">
+         <section class="skills" id="connect">
             <section class="links">
-                <a class="button">GitHub</a>
-                <a class="button">LinkedIn</a>
-                <a class="button">Resume</a>
+                <a class="button" href="https://github.com/vikiana-petithomme">GitHub</a>
+                <a class="button" href="https://www.linkedin.com/in/vikiana-petit-homme/">LinkedIn</a>
+                <a class="button" href="https://twitter.com/VikianaWeb">Twitter</a>
+            </section>
+            <section class="skillsContent">
+                <section class="consult">
+                    <h3>REQUEST A FREE CONSULTATION</h3>
+                    <form>
+                        <input type="text" name="contact" id="fname" placeholder="FIRST NAME">
+                        <input type="text" name="contact" id="lname" placeholder="LAST NAME">
+                        <input type="email" name="contact" id="email" placeholder="EMAIL">
+                        <input type="tel" name="contact" id="phoneNumber" placeholder="PHONE NUMBER">
+                        <textarea placeholder="MESSAGE"></textarea>
+                    </form>
+                    <input type="submit" name="contact" id="submit">
+                </section>
+                <section class="skillsInfo">
+                    <section class="softSkills">
+                        <h4>SOFT SKILLS</h4>
+                        <section id="communication">
+                            <span>COMMUNICATION</span>
+                            <section class="rating">
+                                <span class="material-symbols-outlined filled">
+                                star </span>
+                                <span class="material-symbols-outlined filled">
+                                star</span>
+                                <span class="material-symbols-outlined filled">
+                                star</span>
+                                <span class="material-symbols-outlined filled">
+                                star</span>
+                                <span class="material-symbols-outlined">
+                                star</span>
+                            </section>
+                        </section>
+                        <section id="collaboration">
+                            <span>COLLABORATION</span>
+                            <section class="rating">
+                                <span class="material-symbols-outlined filled">
+                                star </span>
+                                <span class="material-symbols-outlined filled">
+                                star</span>
+                                <span class="material-symbols-outlined filled">
+                                star</span>
+                                <span class="material-symbols-outlined filled">
+                                star</span>
+                                <span class="material-symbols-outlined filled">
+                                star</span>
+                            </section>
+                        </section>
+                        <section id="creativity">
+                            <span>CREATIVITY</span>
+                            <section class="rating">
+                                <span class="material-symbols-outlined filled">
+                                star </span>
+                                <span class="material-symbols-outlined filled">
+                                star</span>
+                                <span class="material-symbols-outlined filled">
+                                star</span>
+                                <span class="material-symbols-outlined filled">
+                                star</span>
+                                <span class="material-symbols-outlined filled">
+                                star</span>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="hardSkills">
+                        <h4>HARD SKILLS</h4>
+                        <section id="html">
+                            <label>HTML
+                            <progress value="99" max="100"> 99%</progress><span>99%</span></label>
+                        </section>
+                        <section id="css">
+                            <label>CSS
+                            <progress value="95" max="100"> 95%</progress><span>95%</span></label>
+                        </section>
+                        <section id="js">
+                            <label>JAVASCRIPT
+                            <progress value="85" max="100"> 85%</progress><span>95%</span></label>
+                        </section>
+                    </section>
+                    
+                </section>
             </section>
             <section class="devSkills"></Section>
         </section>

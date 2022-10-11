@@ -54,7 +54,7 @@
     }
 }
 
-@media screen and (max-width:2000px){
+@media screen and (max-width:2010px){
     section.home h1{
         width:93%;
         font-size:13rem;    
@@ -69,6 +69,10 @@
 
     nav li a {
         font-size: 3rem;  
+    }
+
+    .rating .material-symbols-outlined{
+        font-size: 6rem;    
     }
 }
 
@@ -86,6 +90,10 @@
         font-size: 2.8rem;
     }
 
+    .rating .material-symbols-outlined{
+        font-size: 5.5rem;    
+    }
+
 }
 
 @media screen and (max-width:1800px){
@@ -98,7 +106,18 @@
     header h1 {
         font-size: 6rem;
     }
-    
+
+    .rating .material-symbols-outlined{
+        font-size: 5rem;    
+    }
+
+    .softSkills > section > span, .hardSkills > section > span {
+        font-size: 4rem;
+    }
+
+    .hardSkills > section > label {
+        font-size: 4rem;
+    }
 }
 @media screen and (max-width:1700px){
     section.home h1{
@@ -123,7 +142,7 @@
     }
 }
 
-@media screen and (max-width:1600px){
+@media screen and (max-width:1620px){
     section.home h1{
         width:100%;
         padding-right:10%;
@@ -140,6 +159,28 @@
     }
     .about p {
         font-size: 2rem;
+    }
+
+    .rating .material-symbols-outlined{
+        font-size: 4.5rem;    
+    }
+
+    progress {
+        height:4.5rem;
+    }
+}
+
+@media screen and (max-width:1550px){
+    .rating .material-symbols-outlined{
+        font-size: 4.5rem;    
+    }
+
+    .softSkills > section > span, .hardSkills > section > span {
+        font-size: 3.5rem;
+    }
+
+    .hardSkills > section > label {
+        font-size: 3.5rem;
     }
 }
 
@@ -170,6 +211,23 @@
         font-size: 1.75rem;
     }
 
+    .consult h3 {
+        font-size: 7.5rem;
+    }
+}
+
+@media screen and (max-width:1450px){
+    .rating .material-symbols-outlined{
+        font-size: 4rem;    
+    }
+
+    .skillsInfo h4 {
+        font-size: 6rem;
+    }
+    
+    progress {
+        height:4rem;
+    }
 }
 
 @media screen and (max-width:1400px){
@@ -186,6 +244,39 @@
     }
     h2 {
         font-size: 7.5rem;
+    }
+    .rating .material-symbols-outlined{
+        font-size: 3.75rem;    
+    }
+
+    .softSkills > section > span, .hardSkills > section > span {
+        font-size: 3.25rem;
+    }
+
+    .hardSkills > section > label {
+        font-size: 3.25rem;
+    }
+
+    .consult h3 {
+        font-size: 7rem;
+    }
+
+    ::placeholder{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:1350px){
+    .rating .material-symbols-outlined{
+        font-size: 3.5rem;    
+    }
+
+    .softSkills > section > span, .hardSkills > section > span {
+        font-size: 3rem;
+    }
+
+    .hardSkills > section > label {
+        font-size: 3rem;
     }
 }
 
@@ -209,7 +300,37 @@
         font-size: 7rem;
     }
     
+    .consult h3 {
+        font-size: 6.5rem;
+    }
+
+    .consult input#email {
+        height:6rem;
+    }
+    
+    .consult input#phoneNumber {
+        height:6rem;
+    }
+    
+    
+    #fname, #lname {
+        height:6rem;
+    
+    }
+    
+    textarea {
+        height: 18rem;
+    }
    
+    progress {
+        height:3.5rem;
+    }
+}
+
+@media screen and (max-width:1250px){
+    ::placeholder{
+        font-size: 1.6rem;
+    }
 }
 
 @media screen and (max-width:1200px){
@@ -227,6 +348,34 @@
         font-size: 6.5rem;
     }
 
+    .rating .material-symbols-outlined{
+        font-size: 3.25rem;    
+    }
+
+    .softSkills > section > span, .hardSkills > section > span {
+        font-size: 2.75rem;
+    }
+
+    .hardSkills > section > label {
+        font-size: 2.75rem;
+    }
+
+    .consult h3 {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (max-width:1150px){
+    ::placeholder{
+        font-size: 1.4rem;
+    }
+}
+
+
+@media screen and (max-width: 1120px){
+    .consult h3 {
+        font-size: 5.5rem;
+    }
 }
 
 @media screen and (max-width:1100px){
@@ -252,6 +401,8 @@
     .about img {
         border-radius: 50%;
         width: 31.5%;
+        margin-left:auto;
+        margin-right:auto;
     }
     
     .about section.blurb {
@@ -263,7 +414,47 @@
         display: flex;
         flex-direction: column;
     }
+    
+    .rating .material-symbols-outlined{
+        font-size: 3rem;    
+    }
+
+    .softSkills > section > span, .hardSkills > section > span {
+        font-size: 2.5rem;
+    }
+
+    .hardSkills > section > label {
+        font-size: 2.5rem;
+    }
+
+    ::placeholder{
+        font-size: 1.2rem;
+    }
+
+    .consult input#email {
+        height:5rem;
+    }
+    
+    .consult input#phoneNumber {
+        height:5rem;
+    }
+    
+    
+    #fname, #lname {
+        height:5rem;
+    
+    }
+    
+    textarea {
+        height: 15rem;
+    }
+
+    .skillsInfo h4 {
+        font-size: 5.5rem;
+    }
+    
 }
+
 
 @media screen and (max-width:1050px){
     header nav li { 
@@ -294,6 +485,55 @@
 
     .about p {
         font-size: 1.8rem;
+    }
+
+    progress {
+        height:3rem;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .consult h3 {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width:1010px){
+    .rating .material-symbols-outlined{
+        font-size: 2.75rem;    
+    }
+
+    .softSkills > section > span, .hardSkills > section > span {
+        font-size: 2.25rem;
+    }
+
+    .hardSkills > section > label {
+        font-size: 2.25rem;
+    }
+
+    .skillsInfo h4 {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 933px){
+    .consult h3 {
+        font-size: 4.5rem;
+    }
+}
+
+
+@media screen and (max-width:920px){
+    .rating .material-symbols-outlined{
+        font-size: 2.5rem;    
+    }
+
+    .softSkills > section > span, .hardSkills > section > span {
+        font-size: 2rem;
+    }
+
+    .hardSkills > section > label {
+        font-size: 2rem;
     }
 }
 
@@ -339,6 +579,35 @@
         font-size: 1.6rem;
     }
     
+    .skillsInfo h4 {
+        font-size: 4.5rem;
+    }
+
+    progress {
+        height:2.5rem;
+    }
+}
+
+
+@media screen and (max-width: 840px){
+    .consult h3 {
+        font-size: 4rem;
+    }
+}
+
+
+@media screen and (max-width:830px){
+    .rating .material-symbols-outlined{
+        font-size: 2.25rem;    
+    }
+
+    .softSkills > section > span, .hardSkills > section > span {
+        font-size: 1.75rem;
+    }
+
+    .hardSkills > section > label {
+        font-size: 1.75rem;
+    }
 }
 
 @media screen and (max-width:800px){
@@ -359,6 +628,40 @@
     .about p {
         font-size: 1.4rem;
     }
+    .skillsInfo h4 {
+        font-size: 4rem;
+    }
+
+    .skillsContent {
+        flex-direction: column;
+    }
+
+    section.consult {
+        width:100%;
+        margin-right:3%;
+    }
+    section.skillsInfo {
+        width:100%;
+        padding-left:0px;
+        padding-right:0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    section.softSkills {
+        width:50%;
+    }
+
+    section.hardSkills {
+        width:50%;
+    }
+}
+
+@media screen and (max-width: 749px){
+    .consult h3 {
+        font-size: 3.5rem;
+    }
 }
 
 @media screen and (max-width:700px){
@@ -376,6 +679,16 @@
 
     .about p {
         font-size: 1.2rem;
+    }
+
+    .skillsInfo h4 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .consult h3 {
+        font-size: 3rem;
     }
 }
 
@@ -402,6 +715,46 @@
     .about p {
         font-size: 1rem;
     }
+    .skillsInfo h4 {
+        font-size: 3rem;
+    }
+
+    .rating .material-symbols-outlined{
+        font-size: 2rem;    
+    }
+
+    .softSkills > section > span, .hardSkills > section > span {
+        font-size: 1.5rem;
+    }
+
+    .hardSkills > section > label {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 565px){
+    .consult h3 {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media screen and (max-width: 525px){
+    .rating .material-symbols-outlined{
+        font-size: 1.75rem;    
+    }
+
+    .softSkills > section > span, .hardSkills > section > span {
+        font-size: 1.25rem;
+    }
+
+    .hardSkills > section > label {
+        font-size: 1.25rem;
+    }
+
+    .skillsInfo h4 {
+        font-size: 3.5rem;
+    }
 }
 
 @media screen and (max-width:500px){
@@ -413,6 +766,39 @@
     }
 }
 
+@media screen and (max-width: 475px){
+    .consult h3 {
+        font-size: 2rem;
+    }
+
+    .skillsInfo h4 {
+        font-size: 3.25rem;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .rating .material-symbols-outlined{
+        font-size: 1.50rem;    
+    }
+
+    .softSkills > section > span, .hardSkills > section > span {
+        font-size: 1rem;
+    }
+
+    .hardSkills > section > label {
+        font-size: 1rem;
+    }
+
+    .skillsInfo h4 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:430px){
+    .skillsInfo h4 {
+        font-size: 2.75rem;
+    }
+}
 @media screen and (max-width:400px){
     header h1 {
         font-size: 3.5rem;
@@ -429,6 +815,54 @@
         margin-bottom: 5%;  
         
     }
+
+    section.skillsInfo {
+        width:100%;
+        padding-left:0px;
+        padding-right:0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skillsInfo h4 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    section.softSkills {
+        width:100%;
+    }
+
+    section.hardSkills {
+        width:100%;
+    }
+
+    .softSkills > section > span, .hardSkills > section > span {
+        font-size: 2rem;
+    }
+
+    .hardSkills > section > label {
+        font-size: 2.5rem;
+    }
+
+    .skillsInfo h4 {
+        font-size: 2.5rem;
+        margin-top:5%;
+    }
+
+    .rating .material-symbols-outlined{
+        font-size: 2.5rem;    
+    }
+
+    section.consult {
+        margin-top:5%;
+    }
+}
+
+@media screen and (max-width:350px){
+    .skillsInfo h4 {
+        font-size: 2.25rem;
+    }
 }
 
 @media screen and (max-width:300px){
@@ -441,6 +875,10 @@
     }
     section.embeds a.seeMore {
         font-size: 1rem;
+    }
+
+    .skillsInfo h4 {
+        font-size: 2rem;
     }
 }
 
