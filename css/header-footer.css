@@ -5,6 +5,8 @@ header {
     position: fixed;
     top:0;
     z-index:5;
+    padding-top:1%;
+    padding-bottom:1%;
 }
 
 header > a {
@@ -47,15 +49,6 @@ nav li a {
     text-align: center;
 
 }
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
-}
-
 
 footer p{
     font-size: 2rem;

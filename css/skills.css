@@ -1,9 +1,153 @@
 section.links {
     display: flex;
     justify-content: center;
+    width:100%;
 }
 
 section.links .button {
     margin-left:0px;
     margin-right:2%;   
+}
+
+.skillsContent {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:3%;
+}
+
+section.consult {
+    width:50%;
+    background:white;
+    border-radius: 3%;
+    box-shadow: 15px -15px #b9ffb8; 
+    margin-bottom: 2%;
+    padding:2%;
+}
+
+section.skillsInfo {
+    width:50%;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.consult h3 {
+    width:100%;
+    text-align: center;
+    font-size: 8rem;
+    color: #00491f;
+    line-height: 1em;
+    margin-top:0px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.consult input , textarea {
+    border: 2px solid #00491f;
+    background: transparent;
+    margin-bottom: 2%;
+    font-size: 2rem;
+    padding-left: 1%;
+    color: #00491f;
+
+}
+::placeholder{
+    color: #00491f;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.consult input#email {
+    width: 65%;
+    height:7rem;
+}
+
+.consult input#phoneNumber {
+    width: 32%;
+    height:7rem;
+}
+
+
+#fname, #lname {
+    width: 48%;
+    height:7rem;
+
+}
+
+textarea {
+    width:100%;
+    height: 20rem;
+}
+
+input#submit {
+    color: white;
+    font-size: 2rem;
+    background: #279625;
+    border-radius: 10%;
+    margin-bottom: 5%;
+    padding-bottom:1%;
+    padding-top:1%;
+    padding-left:3%;
+    padding-right:3%;
+}
+
+.skillsInfo h4 {
+    font-size: 6.5rem;
+    color: #b9ffb8;
+    width:100%;
+    margin-bottom:3%;
+    margin-top:0;
+}
+
+.softSkills > section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom:3%;
+}
+
+.hardSkills label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom:3%;
+}
+
+.softSkills > section > span, .hardSkills > section > span {
+    font-size: 4.5rem;
+    color: #b9ffb8;
+    margin-right: 3%;
+}
+
+.softSkills .rating span {
+    color: #279625;
+}
+
+.rating .material-symbols-outlined{
+    font-size: 7rem;    
+}
+.material-symbols-outlined.filled{
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.hardSkills > section > label {
+    font-size: 4.5rem;
+    color: #b9ffb8;
+}
+progress {
+    width: 60%;
+    height:5rem;
+    color: #b9ffb8;
+    background: rgb(56,182,255);
+    margin-left:3%;
+    margin-right: 3%;
 }
