@@ -54,3 +54,10 @@ function showLessPortfolio(){
 
    seeMorePortfolioButton.classList.toggle('mobileHide')
 }
+
+document.querySelector('.hamburger').addEventListener('click', mobileNav)
+
+function mobileNav(){
+   let mobileNav = document.querySelector('#mobile')
+   mobileNav.classList.toggle('hide')
+}
