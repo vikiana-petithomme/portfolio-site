@@ -22,13 +22,24 @@
     </head>
     <body>
         <header>
+            <section class="defaultNav"></section>
             <a href="#home"><h1>VIKIANA <span>PETIT-HOMME</span></h1></a>
-            <nav>
+                <nav id="main">
+                    <ul>
+                        <section class="mainNav">
+                            <li><a href="#portfolio">PORTFOLIO</a></li>
+                            <li><a href="#connect">CONNECT</a></li>
+                            <li><a href="#about">ABOUT</a></li>
+                        </section>
+                        <li class="hamburger hide"><a><span class="material-symbols-outlined">menu</span></a></li>
+                    </ul>
+                </nav>
+            </section>
+            <nav class="hide" id="mobile">
                 <ul>
                     <li><a href="#portfolio">PORTFOLIO</a></li>
                     <li><a href="#connect">CONNECT</a></li>
                     <li><a href="#about">ABOUT</a></li>
-                    <li class="hamburger hide"><a><span class="material-symbols-outlined">menu</span></a></li>
                 </ul>
             </nav>
         </header>
@@ -54,7 +65,7 @@
             <section class="skillsContent">
                 <section class="consult">
                     <h3>REQUEST A FREE CONSULTATION</h3>
-                    <form>
+                    <form name="contact" methods="post" data-netlify="true">
                         <input type="text" name="contact" id="fname" placeholder="FIRST NAME">
                         <input type="text" name="contact" id="lname" placeholder="LAST NAME">
                         <input type="email" name="contact" id="email" placeholder="EMAIL">
