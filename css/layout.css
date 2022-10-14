@@ -31,7 +31,6 @@ section.home {
     align-items: center;
     padding-left:5%;
     padding-right:5%;
-    margin-top: 100px;
     padding-bottom:5%;
 }
 
@@ -45,6 +44,7 @@ section.about {
 section.skills {
     width:100%;
     background: #00491f;
+    padding-top:10%;
 }
 
 section.portfolio {

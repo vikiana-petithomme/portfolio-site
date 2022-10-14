@@ -1,41 +1,39 @@
 header {
-    position: fixed;
+    position: sticky;
     top:0;
     z-index:5;
     padding-top:1%;
     padding-bottom:1%;
 }
 
-section.defaultNav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width:100%;
-}
 header > a {
     text-decoration: none;
     float: left;
+    width: 50%;
 }
 
 header h1 {
     color: #00491f;
-    width: 100%;
     font-size: 10rem;
     font-family:'sceageusregular' ;
     text-shadow: 1.5px 2px 1px #279625;
     letter-spacing: 10px;
     margin:0px;
+    float:left;
 }
 
-/*header nav#main {
-    width: 40%;
-}*/
-
-header nav#main ul {
+header nav#main {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px;
 }
 
-header nav#main li {
+ul.mainNav {
+    width: 50%;
+}
+.mainNav > li {
     list-style-type: none;
     float: right;
     padding-left: 40px;
@@ -68,6 +66,7 @@ footer p{
 nav#mobile {
     width: 100%;
     clear:both;
+    border: 5px solid red;
 }
 
 nav#mobile ul {
@@ -80,6 +79,7 @@ nav#mobile ul li {
     border-bottom: 1px solid #00491f;
     padding:1%;
     text-align: left;
+    float:left;
 }
 
 nav#mobile ul li a {
@@ -91,4 +91,8 @@ nav#mobile ul li a {
 
 .mainNav li.hide {
     display:none;
+}
+
+.hamburger span {
+    width:30%;
 }

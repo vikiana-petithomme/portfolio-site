@@ -18,7 +18,7 @@
     .about p {
         font-size: 3.75rem;
     }
-    nav li a {
+    nav#main li a {
         font-size: 3.75rem;  
     }
 }
@@ -33,7 +33,7 @@
     .about p {
         font-size: 3.5rem;
     }
-    nav li a {
+    nav#main li a {
         font-size: 3.5rem;  
     }
 }
@@ -49,7 +49,7 @@
     .about p {
         font-size: 3.25rem;
     }
-    nav li a {
+    nav#main li a {
         font-size: 3.25rem;  
     }
 }
@@ -67,7 +67,7 @@
         font-size: 3rem;
     }
 
-    nav li a {
+    nav#main li a {
         font-size: 3rem;  
     }
 
@@ -130,13 +130,10 @@
 
     }
     
-    header h1 {
+    header a {
         font-size: 5rem;
     }
 
-    header nav {
-        width: 45%;
-    }
     .about p {
         font-size: 2.25rem;
     }
@@ -154,9 +151,6 @@
         font-size: 4rem;
     }
    
-    header nav {
-        width: 50%;
-    }
     .about p {
         font-size: 2rem;
     }
@@ -203,10 +197,6 @@
 
     }
    
-    header nav {
-        width: 55%;
-    }
-
     .about p {
         font-size: 1.75rem;
     }
@@ -239,9 +229,6 @@
 
     }
 
-    header nav {
-        width: 60%;
-    }
     h2 {
         font-size: 7.5rem;
     }
@@ -293,9 +280,6 @@
         padding-top: 325px; 
     }
 
-    header nav {
-        width: 65%;
-    }
     h2 {
         font-size: 7rem;
     }
@@ -335,10 +319,6 @@
 
 @media screen and (max-width:1200px){
 
-    header nav {
-        width: 70%;
-    }
-    
     section.home h1{
         font-size:10rem;
         background-size: 600px; 
@@ -380,9 +360,6 @@
 
 @media screen and (max-width:1100px){
    
-    header nav {
-        width: 75%;
-    }
    
     section.home h1{
         font-size:9rem;
@@ -457,23 +434,6 @@
 
 
 @media screen and (max-width:1050px){
-    header nav li { 
-        display: none;
-    }
-    header nav ul{
-        display: flex;
-        justify-content: flex-end;
-    }
-    .hamburger {
-        display: block;
-    }
-    header h1 {
-        font-size: 6.5rem;
-    }
-    header nav {
-        width: 70%;
-    }
-
     section.home h1{
         font-size:8rem;
         background-size: 500px; 
@@ -490,6 +450,8 @@
     progress {
         height:3rem;
     }
+
+
 }
 
 @media screen and (max-width: 1023px){
@@ -569,10 +531,6 @@
 
     section.embeds a.seeMore {
         display:block;
-    }
-
-    .mobileHide{
-        display:none !important;
     }
 
     .about p {
@@ -656,6 +614,53 @@
     section.hardSkills {
         width:50%;
     }
+
+  ul.mobileHide { 
+        display: none;
+    }
+    
+    header nav#main {
+        display:block;
+        overflow:auto;
+    
+    }
+   
+    ul.mainNav {
+        width:100%;
+        float:left;
+        padding:0px;
+    }
+    .mainNav > li {
+        width:100%;
+        border-bottom: 1px solid #00491f;
+        padding-left:0px;
+        padding-top: 1%;
+        padding-bottom:1%;
+        text-align: left;
+        float:left;
+   
+    }
+
+    .mainNav li a {
+        width: 100%;
+        color: #00491f;
+        font-family:'sceageusregular' ;
+        text-decoration: none;
+    }
+    .hamburger {
+        display: inline-block;
+        width:45%;
+    }
+
+    .hamburger span {
+        float:right;
+        vertical-align: middle;
+
+    }
+    header h1 {
+        font-size: 6.5rem;
+    }
+
 }
 
 @media screen and (max-width: 749px){
