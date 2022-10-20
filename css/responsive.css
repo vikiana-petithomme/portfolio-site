@@ -484,6 +484,11 @@
     
 }
 
+@media screen and (max-width:1084px){
+    .portfolioItemLabel h3 {
+        font-size: 3rem;
+    }
+}
 
 @media screen and (max-width:1050px){
     section.home h1{
@@ -588,10 +593,26 @@
         flex-direction: column;
     }
     
-    .embeds section {
+    section.embeds > section {
         width: 100%;
         margin-right: 0%;
-        padding-top:56%;
+        padding-top:40%;
+        padding-bottom:40%;
+    }
+
+    .embeds > section:hover {
+        padding-top:15%;
+        padding-bottom:15%;
+    
+    }
+
+    .portfolioItemLabel h3 {
+        font-size: 4rem;
+    }
+
+    section.portfolioItemLabel {
+        padding-top: 0px;
+        padding-bottom:0px;
     }
     section.portfolio {
         margin-bottom:2%;
@@ -694,7 +715,7 @@
         width:50%;
     }
 
-  ul.mobileHide { 
+  ul.hideMobile { 
         display: none;
     }
     
@@ -797,6 +818,10 @@
         font-size: 1.5rem;
     }
 
+    .mobileHide{
+        display:none;
+    }
+
     .about p {
         font-size: 1rem;
     }
@@ -815,6 +840,7 @@
     .hardSkills > section > label {
         font-size: 1.5rem;
     }
+
 }
 
 @media screen and (max-width: 565px){
@@ -943,6 +969,14 @@
         margin-top:5%;
     }
 }
+
+@media screen and (max-width:380px){
+    section.links {
+        margin-bottom:-35px; 
+     
+    }
+}
+
 
 @media screen and (max-width:350px){
     .skillsInfo h4 {
