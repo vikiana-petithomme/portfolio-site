@@ -6,6 +6,7 @@ This site serves a promotion of Vikiana Petit-Homme's engineering skills and exp
 
 View the site at: https://viiana.netlify.app
 
+
 ### Latest Update
 
 - Fixing broken portfolio section responsiveness. 
