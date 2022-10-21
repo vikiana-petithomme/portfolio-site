@@ -10,6 +10,7 @@ View the site at: https://vikiana.netlify.app
 
 Tech used: HTML, CSS, JavaScript
 
+
 ### Latest Update
 
 - Fixing broken portfolio section responsiveness. 
