@@ -12,4 +12,3 @@ Link to project:** http://recruiters-love-seeing-live-demos.com/
 ### Latest Update
 
 - Fixing broken portfolio section responsiveness. 
-
