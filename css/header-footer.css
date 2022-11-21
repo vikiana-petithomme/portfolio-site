@@ -4,8 +4,15 @@ header {
     z-index:5;
     padding-top:1%;
     padding-bottom:1%;
+    overflow: contain;
 }
 
+header .material-symbols-outlined {
+    text-align: right;
+    color: #00491f;
+    font-weight: bolder;
+    font-size: 5em;
+}
 header > a {
     text-decoration: none;
     float: left;
@@ -66,11 +73,14 @@ footer p{
 nav#mobile {
     width: 100%;
     clear:both;
-    border: 5px solid red;
+    /* border: 5px solid red; */
+    overflow: auto;
 }
 
 nav#mobile ul {
     width: 100%;
+    overflow: auto;
+    padding: 0px;
 }
 
 nav#mobile ul li {
@@ -89,6 +99,17 @@ nav#mobile ul li a {
     text-decoration: none;
 }
 
+nav#mobile ul li:hover {
+    background-color: #279625;
+}
+
+/*
+.whiteText {
+    color: white !important;
+}*/
+
+
+
 .mainNav li.hide {
     display:none;
 }
@@ -96,3 +117,4 @@ nav#mobile ul li a {
 .hamburger span {
     width:30%;
 }
+

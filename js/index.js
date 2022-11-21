@@ -12,6 +12,8 @@ const portfolioItemLabel = document.querySelectorAll('.portfolioItemLabel')
 portfolioItems.forEach(item => {
    item.addEventListener('mouseover', showItemLabel)
 
+   console.log('this is portfolio item: ' + item)
+
    function showItemLabel(){
       portfolioItemLabel[portfolioItems.indexOf(item)].classList.toggle('hide')
    }
@@ -24,6 +26,7 @@ portfolioItems.forEach(item => {
 
 
 const seeMorePortfolioButton = document.querySelector('.seeMore')
+
 seeMorePortfolioButton.addEventListener('click', addMorePortfolio)
 
 const seeLessPortfolioButton = document.querySelector('.seeLess')
@@ -55,9 +58,46 @@ function showLessPortfolio(){
    seeMorePortfolioButton.classList.toggle('mobileHide')
 }
 
-document.querySelector('.hamburger').addEventListener('click', mobileNav)
+let hamburger = document.querySelector('.hamburger')
+
+console.log('this is the hamburg ' + hamburger)
+
+hamburger.addEventListener('click', mobileNav)
 
 function mobileNav(){
-   let mainNav = document.querySelector('.mainNav')
-   mainNav.classList.toggle('mobileHide')
+   console.log('mobile nav event listener is working')
+   let mobileNav = document.getElementById('mobile')
+   console.log('this is the mobile Nav' + mobileNav)
+   mobileNav.classList.toggle('hide')
+
+   let navItems = document.getElementsByClassName('mNavItems')
+   console.log('these are the navItems '+ navItems)
+   Array.from(navItems).forEach(item=>{
+      console.log(item)
+      item.addEventListener('mouseover', turnTextWhite)
+      function turnTextWhite(){
+         console.log('you just hovered over ' + item)
+         let navText = item.children[0]
+         console.log('trying to go to '+ navText)
+         navText.style.color = 'white'
+         console.log(item.style.color)
+      }
+      item.addEventListener('mouseout', turnBackText)
+      function turnBackText(){
+         console.log('you just hovered over ' + item)
+         let navText = item.children[0]
+         console.log('trying to go to '+ navText)
+         navText.style.color = '#00491f'
+         console.log(item.style.color)
+      }
+      item.addEventListener('click', clickText)
+
+      function clickText(){
+         let navText = item.children[0]
+         navText.click()
+      }
+   })
+   
+
 }
+
