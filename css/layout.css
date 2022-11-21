@@ -147,3 +147,11 @@ section.embeds{
 .hidden {
     display:none;
 }
+
+textarea, input{
+    font-family: 'Barlow', sans-serif;
+}
+
+textarea::placeholder{
+    font-weight:bold;
+}
