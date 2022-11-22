@@ -717,8 +717,17 @@
     }
 
     section.hardSkills {
-        width:50%;
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 4%;
+        align-items: center;
     }
+    section.hardSkills > section{
+        width:48%;
+    }
+    
 
   ul.hideMobile { 
         display: none;
@@ -972,6 +981,10 @@
     section.consult {
         margin-top:5%;
     }
+
+    section.hardSkills > section > p{
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width:380px){
@@ -985,6 +998,10 @@
 @media screen and (max-width:350px){
     .skillsInfo h4 {
         font-size: 2.25rem;
+    }
+
+    section.hardSkills > section > p{
+        font-size: 1.75rem;
     }
 }
 
@@ -1002,6 +1019,10 @@
 
     .skillsInfo h4 {
         font-size: 2rem;
+    }
+
+    section.hardSkills > section > p{
+        font-size: 1.5rem;
     }
 }
 
